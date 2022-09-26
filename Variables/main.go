@@ -18,6 +18,8 @@ func main() { //Les Variables
 
 	liste := []int{1, 2, 3} // variable liste
 
+	liste = append(liste, 4)
+
 	fmt.Println(liste)
 	//////////////////////////Fonctionnes avec la table ascii (commande console: $man ascii)
 	MyFirstByte := []byte(text) //variable byte
