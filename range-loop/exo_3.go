@@ -7,7 +7,7 @@ import "fmt"
 
 func main() {
 
-	text := "Hello world we love golang !"
+	text := "Hello world we love golang"
 	liste := SplitWhiteSpaces(text)
 	fmt.Print(text)
 
