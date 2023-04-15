@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+.Cube {
+    height: 20vh;
+    width: 20vh;
+}
+
+.Cube-Bleu {
+    background-color: blue;
+    height : 20vh;
+    width : 20vh;
+}
+
+.Cube-Rouge {
+    background-color: red;
+    height : 20vh;
+    width : 20vh;
+}
+
+.Brique {
+    background-color: rgb(193, 49, 49);
+    border: black solid 2px;
+    height : 10vh;
+    width : 15vh;
+}

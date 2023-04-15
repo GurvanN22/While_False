@@ -1,0 +1,18 @@
+<html>
+<p> Ehllo world ! </p>
+<p> {{.Word}}</p>
+
+<form action="/input" method="post">
+    <input type="text" name = "TextARecuperer" placeholder="phrase">
+</form>
+
+{{if .BoolValue}}
+<p> La valeur est vrai</p>
+{{else}}
+<p>La valeur est fausse</p>
+{{end}}
+
+{{range .NumOfButton}}
+    <input type="submit" value ="{{.Letter}}">
+{{end}}
+</html>
